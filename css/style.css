@@ -1,0 +1,46 @@
+#drum-machine { 
+  width: 362px;
+  border: 1px solid green;
+  padding: 5px; 
+}
+h1, h6 {
+  text-align: center;
+  
+}
+label {
+  text-align: center;
+}
+#row1 {
+  margin: auto;
+}
+
+.b {
+  width: 110px;
+  text-align: center;
+}
+.b1 {
+  width: 330px;
+  text-align: center;
+}
+
+.b3 {
+  width: 165px;
+}
+.wb {
+  background-color: green;
+  color: white;
+}
+
+.ob {
+  background-color: orange;
+  color: black;
+}
+
+#display, #display1 {
+  text-align: right;
+  font-weight: bold;
+}
+
+.btn {
+  border: 1px solid black;
+}

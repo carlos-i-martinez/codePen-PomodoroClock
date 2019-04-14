@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock Front End Project</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>Pomodoro Clock</h1>
+<div id="drum-machine" class="container-fluid">
+  <div id="row1" class="row">
+    
+    <div class="b">
+      <label id ="session-label"for="eight">Increase</label>
+      <button class="btn btn-block btn-primary" id="break-increment" onclick="incLength(1)">+</button></div>
+    <div class="b">
+      <label id ="break-label"for="eight">Break Length</label>
+      <p id='break-length'>5</p>
+    </div>
+    <div class="b">
+      <label id ="session-label"for="eight">Decrease</label>
+      <button class="btn btn-block btn-primary" id="break-decrement" onclick="decLength(1)">-</button></div>
+  </div>
+  
+  <div id="row1" class="row">    
+    <div class="b">
+      <label id ="session-label"for="eight">Increase</label>
+      <button class="btn btn-block btn-primary" id="session-increment" onclick="incLength(2)">+</button></div>
+    
+    <div class="b">
+      <label id ="break-label"for="eight">Session Length</label>
+      <p id='session-length'>25</p>
+    </div>
+    
+    <div class="b">
+      <label id ="session-label"for="eight">Decrease</label>
+      <button class="btn btn-block btn-primary" id="session-decrement" onclick="decLength(2)">-</button></div>
+  </div>
+
+  <div id="row1" class="row">
+    <div class="b1">
+      <label id ="timer-label"for="eight">Session</label>
+      <p id='time-left'>25:00</time></p>
+    </div>
+  </div>
+  
+  <div id="row1" class="row">    
+    <div class="b3"> <button class="btn btn-block btn-primary" id="start_stop" onclick="startStop()">Start/Stop</button></div>
+    <div class="b3"><button class="btn btn-block btn-danger" id="reset" onclick="reset()">Reset</button></div>
+  </div>
+<audio class="clip" id="beep" src="https://github.com/carlos-i-martinez/Drum_Sounds/blob/master/firedrill.wav?raw=true" preload="auto"></audio>
+  
+</div>
+<h6>Designed and Coded By Carlos Martinez</h6>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
